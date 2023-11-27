@@ -1,0 +1,8 @@
+* {
+    font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+}
+body{
+    background-color: #F5EFE4;
+    background-image: url(logo參考/素材/foggy-birds.png);
+    align-items: center;
+}

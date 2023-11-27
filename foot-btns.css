@@ -1,0 +1,34 @@
+
+
+/*<div class="btn-wrap">
+    <a href="#" class="btnL">NEWS►</a>
+    <a href="#" class="btnM">ALL►</a>
+    <a href="#" class="btnR">FAQ►</a>
+</div> */
+.btn-wrap{
+    margin: auto;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-wrap a{
+    font-size: 30px;
+    width: 400px;
+    height: 80px;
+    background-color: #CBBBB3;
+    text-align: center;
+    align-items: center;
+    line-height: 80px;
+}
+.btnL{
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    border-right: 1px solid #000;
+}
+.btnR{
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    border-left: 1px solid #000;
+}

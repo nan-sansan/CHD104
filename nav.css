@@ -1,0 +1,29 @@
+
+ul ,a{
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: #F5EFE4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    margin-right: 400px;
+}
+.nav-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nav-item{
+    /* background-color: #Fa0; */
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+    /* background-color: #fa0; */
+    display: flex;
+    align-items: center;
+}

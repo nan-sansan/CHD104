@@ -1,0 +1,25 @@
+.foot-wrap{
+    height: 400px;
+    background-color: #F5EFE4;
+    display: flex;
+    justify-content: center;
+}
+.SNS,.foot-info{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-size: 32px;
+    margin-top: 6%;
+    margin-left : 15%;
+}
+.SNStext{
+    padding-bottom: 15%;
+}
+.infotext{
+    padding-bottom: 30%;
+}
+.foot-pic{
+    margin-top: 3%;
+    margin-left : 15%;
+}

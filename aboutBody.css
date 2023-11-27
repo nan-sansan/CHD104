@@ -1,0 +1,35 @@
+.L1{
+    width: 575px;
+    height: 575px;
+    background-color: #CBBBB3;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+}
+.Limg img{
+    margin-top: 1100px;
+    margin-left: 12%;
+    border-radius: 20px;
+    border-bottom-right-radius: 125px;
+
+}
+.line{
+    width: 950px;
+    border: 1px solid #000;
+    border-top: transparent;
+    margin: auto;
+    height: 1470px;
+    margin-left: 30%;
+}
+.bgdesign{
+    position: relative;
+}
+
+/* .Lside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1255px;
+} */
