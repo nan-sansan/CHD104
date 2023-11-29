@@ -1,0 +1,90 @@
+.feedback{
+    width: 1200px;
+    height: 1700px;
+    background-color: #E5D9CB;
+    border-radius: 25px;
+    margin: 10% auto 10% auto;
+    padding-top: 5%;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #CBBBB3;
+    margin:  auto auto;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    writing-mode: vertical-lr;
+    font-size: 48px;
+    margin: auto;
+    text-align: center;
+}
+.text{
+    margin-top:5%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 25%;
+    margin-top: 10%;
+    /* text-align: center; */
+}
+.infos div{
+    font-size: 24px;
+}
+.info{
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    background-color: #E4E4E4;
+    border: 1px solid #0005;
+}
+.textbox .info{
+    height: 300px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CBBBB3;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4E4;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+}
+.btns{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 32.5%;
+    text-align: center;
+}

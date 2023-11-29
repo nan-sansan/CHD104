@@ -12,6 +12,9 @@ nav{
 }
 .nav-logo{
     margin-right: 400px;
+    width: 300px;
+    height: 75px;
+    /* image: url(LOGO.png); */
 }
 .nav-wrap{
     display: flex;

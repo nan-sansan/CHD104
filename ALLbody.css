@@ -1,0 +1,107 @@
+.title{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 8%;
+}
+.title-box{
+    width: 1440px;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.itembox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemname{
+    /* display: block; */
+    width: 50%;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 5%;
+    padding: 8px;
+    background-color: #D9D9D9;
+}
+.item-card{
+    background-color: #F5EFE4;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 3%;
+    text-align: center; 
+    width: 400px;
+    height: 450px;
+}
+.price{
+    width: 90%;
+    font-size: 30px;
+    text-align: end;
+    padding: 8px;
+}
+.bg-wrap{
+    width: 100%;
+    margin-top: 5%;
+}
+.bg-title{
+    font-size: 48px;
+    height: 250px;
+    background-color: #E5D9CB;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-wrap{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    /* margin-left: 10%; */
+}
+.hot-card{
+    width: 360px;
+    height: 550px;
+    margin-left: 2.5%;
+}
+.hot-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.hot-info{
+    border-left: 2px solid #000;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.hot-info .name{
+    font-size: 28px;
+}
+.price{
+    font-size: 20px;
+}
+.items{
+    border-radius: 50%;
+}
+.collection{
+    display: flex;
+    margin-bottom: 5%;
+}
+.menu{
+    margin-top: 10%;
+    margin-left: 10%;
+    border-right: 1px solid #000;
+    padding-right: 3%;
+    height: 100%;
+}
+.select{
+    border-bottom: 1px solid #000;
+    font-size: 30px;
+    font-weight: initial;
+    line-height: 3;
+    text-align: end;
+}

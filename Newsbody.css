@@ -1,0 +1,41 @@
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 8rem;
+}
+.wrap{
+    margin: 5% auto auto auto;
+    width: 100%;
+    height: 1280px;
+    background-color: #E8DDD1;
+    overflow: hidden;
+    background-image: url(logo參考/素材/NEWS_flower_half_trans.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+.news-box{
+    margin: 20% auto auto 20%;
+}
+.news{
+    display: inline;
+    line-height: 3;
+    font-size: 38px;
+    /* background-color: #fff; */
+}
+.pics-wrap{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    height: 485px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pic{
+    margin-left: 10px;
+    background-color: #fff;
+    width: 700px;
+    height: 480px;
+    display: inline-block;
+    opacity: 70%;
+}

@@ -1,0 +1,48 @@
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 8rem;
+}
+.wrap{
+    margin: 5% auto auto auto;
+    width: 1440px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.news-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20% auto auto 20%; */
+}
+.pics-wrap{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    height: 485px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pic{
+    margin-left: 10px;
+    background-color: #fff;
+    width: 700px;
+    height: 480px;
+    display: inline-block;
+    opacity: 70%;
+}
+.front{
+    display: inline;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 5%;
+}
+.text{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 24px;
+    text-align: start;
+    letter-spacing: 30%;
+    line-height: 2;
+}
