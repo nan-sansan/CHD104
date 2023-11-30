@@ -22,6 +22,9 @@
 .Limg img{
     border-radius: 20px;
     border-bottom-right-radius: 125px;
+    object-fit: cover;
+    width: 700px;
+    height: 450px;
 }
 .Rimg{
     margin-top: 35rem;
@@ -31,6 +34,9 @@
     border-radius: 20px;
     border-top-right-radius: 125px;
     vertical-align: auto;
+    object-fit: cover;
+    width: 700px;
+    height: 450px;
 }
 .line{
     width: 950px;

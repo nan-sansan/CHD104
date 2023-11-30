@@ -39,3 +39,8 @@
     display: inline-block;
     opacity: 70%;
 }
+.pic img{
+    width: 700px;
+    height: 480px;
+    object-fit: cover;
+}
