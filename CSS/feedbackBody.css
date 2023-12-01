@@ -47,7 +47,7 @@
 .info{
     margin-top: 40px;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 20px;
     width: 500px;
     height: 40px;
@@ -68,6 +68,9 @@
     height: 60px;
     padding: 5px;
 }
+textarea{
+    resize: none;
+}
 .back{
     display: flex;
     justify-content: center;
@@ -84,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 32.5%;
+    margin-top: 3%;
+    margin-left: 30%;
     text-align: center;
 }

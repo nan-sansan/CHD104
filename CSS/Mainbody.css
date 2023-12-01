@@ -66,7 +66,7 @@ body{
 .top{
     width: 600px;
     height: 500px;
-    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #CBBBB3;
 }
 .itemname{
     margin-top: 30px;
@@ -116,7 +116,7 @@ body{
 .rec-item{
     width: 200px;
     height: 200px;
-    border: 1px solid #000;
+    border: 1px solid #CBBBB3;
 }
 .rec-item img{
     width: 200px;
@@ -135,7 +135,6 @@ body{
 .nc-title{
     margin-left: 360px;
     font-size: 40px;
-    
 }
 .nc-card{
     width: 340px;
