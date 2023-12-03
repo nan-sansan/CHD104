@@ -8,16 +8,21 @@
     height: 300px;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    /* align-content: space-around; */
     font-size: 32px;
     margin-top: 6%;
     margin-left : 15%;
 }
 .SNStext{
-    padding-bottom: 15%;
+    width: 200px;
+    background-color: #fff;
+    padding-bottom: 10%;
+}
+.icon{
+    margin-right: 10px;
 }
 .infotext{
-    padding-bottom: 30%;
+    padding-bottom: 5%;
 }
 .foot-pic{
     margin-top: 3%;
