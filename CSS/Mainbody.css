@@ -1,6 +1,6 @@
 body{
     background-color: #F5EFE4;
-    background-image: url(material/bg.png);
+    background-image: url(../material/bg.png);
     /* display: flex; */
     /* flex-wrap: wrap; */
     align-items: center;
@@ -36,7 +36,8 @@ body{
     background-size: cover;
     border-bottom-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    background-image:url(material/topimg.jpg) ;
+    background-image:url(../material/topimg.jpg) ;
+    /* background-color: #fff; */
 }
 .recommend-parents{
     /* background-color: #fff; */
@@ -310,7 +311,7 @@ body{
 .news-bgrectangle{
     width: 100%; /* 長條的寬度 */
     height: 372px; /* 長條的高度 */
-    background-image: url(material/MONTHS.png);
+    background-image: url(../material/MONTHS.png);
     background-repeat: no-repeat;
     background-position: right;
 
