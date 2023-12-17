@@ -1,0 +1,106 @@
+.banner{
+    width: 100%;
+    height: 895px;
+    max-width: 1920px;
+    margin: 75px auto 0;
+    background-image: url(../material/banner_1920-890.png);
+    background-size: cover;
+    background-position: center center;   
+    display: flex;
+    align-items: end;
+}
+.slogan{
+    font-size: 3em;
+    writing-mode: vertical-lr;
+    margin-bottom: 18%;
+    margin-left: 17.5%;
+}
+
+.index-news{
+    width: 100%;
+    height: 895px;
+    max-width: 1920px;
+    margin: 18px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-left-block {
+    width: 70%;
+    flex-grow: 1;
+    margin-left: 5%;
+}
+.news-right-block{
+    width: 21%;
+    margin-left: 2%;
+    min-width: 300px;
+    margin-right: 2%;
+    margin-top: 82px;
+}
+.headline-news-title{
+    width: 92.013889%;
+    margin-bottom: 20px;
+    margin-left: 7.986111%;
+    position: relative;
+    padding: 1px;
+}
+.headline-news-title>.square{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    z-index: -1;
+    top: 71px;
+    left: 0;
+}
+
+.headline-news-title>.circle{
+    position: absolute;
+    background-color:brown;
+    width: 259px;
+    height: 259px;
+    border-radius: 50%;
+    z-index: -1;
+    top: 0;
+    left: 2.5%;
+}
+.headline-news-title>.text{
+    margin-top: 130px;
+    font-size: 2em;
+    margin-left: 90px;
+}
+#headline-news-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#headline-news-block>.headline-news{
+    margin: 0 8px;
+}
+
+.index-news>.news-left-block>.more{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .news-right-block {
+        display: none;
+    }
+    .news-left-block {
+        width: 100%;
+        margin-left: 0;
+    }
+    .index-news>.news-left-block>.more{
+        width: 90%;
+        display: block;
+        margin: 1em auto;
+        text-align: end;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        margin-top: 10vh;
+    }
+}

@@ -6,237 +6,178 @@
     <title>MoriZakka</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/font.css">
-    <link rel="stylesheet" href="CSS/Mainbody.css">
-    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/element.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/indexBody.css">
+    <link rel="stylesheet" href="CSS/indexAbout.css">
+    <link rel="stylesheet" href="CSS/Featured.css">
+    <link rel="stylesheet" href="CSS/quantityBar.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="CSS/scrollTopBtn.css">
+    <script src="JS/jquery-3.7.1.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt=""></a></div>
-        <ul class="nav-wrap">
-            <li class="nav-item"><a href="NEWS.html">全部消息</a></li>
-            <li class="nav-item"><a href="about.html">關於我們</a></li>
-            <li class="nav-item"><a href="ALL.html">所有商品</a></li>
-            <li class="nav-item"><a href="FAQ.html">FAQ</a></li>
-        </ul>
-    </nav>
-
-    <div class="Top-slogan">
-        <div class="topbg">
-            <p class="slogan">簡單生活</p>
-            <p class="slogan">隨心選物</p>
-        </div>
-    </div>
-
-    <div class="recommend-parents">
-        
-        <div class="recommend-pic">
-            <!-- <div class="sticker"></div> -->
-            <!-- <div class="triangleL"></div> -->
-            <div class="left">
-                <img src="material/topic.jpg" class="top">
-                <p class="itemname">商品名稱</p>
-            </div>
-            <!-- <div class="triangleR"></div> -->
-            
-        </div>
-        <div class="recommend-Box">
-            <div class="rec-textbox">
-                <p class="rec-text">Mori Reconmmend</p>
-            </div>
-            <div class="rec-item"><a href=""><img src="material/hat.jpg" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="material/glove.jpg" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="material/sock.jpg" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="material/coat.jpg" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="material/bag.jpg" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="material/earphone.jpg" alt=""></a></div>
-            <!-- <div class="rec-item"><a href=""><img src="" alt=""></a></div>
-            <div class="rec-item"><a href=""><img src="" alt=""></a></div> -->
-        </div>
-    </div>
-    <div class="nc-title">New Collection</div>
-    <div class="nc-wrap">
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc1.jpg"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc2.png"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc3.png"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc4.jpg"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc5.jpg"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-        <div class="nc-card">
-            <div class="nc-stic"></div>
-            <div class="nc-pic"><img src="material/nc6.jpg"></div>
-            <div class="nc-name">商品名稱</div>
-        </div>
-    </div>
-    <div class="news-wrap">
-        <div class="news-bgrectangle"></div>
-        <div class="news-bgcircle"></div>
-            <div class="news-rectangle">
-                <div class="newText">
-                    <a href="NewsPage-1101.html" class="News">11/01｜11月店鋪快閃資訊</a>
-                    <a href="NewsPage-1107.html" class="News">11/07｜網站更新及商品上架</a>
-                    <a href="NewsPage-1110.html" class="News">11/10｜雙十一特惠公告</a>
+    <div class="body-bg"></div>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-burger">
+                <a href="#" id="mob-menu-trigger">≡</a>
+                <div id="mob-menu" class="nav-dropdown">
+                    <div><a href="allNEWS.html">全部消息</a></div>
+                    <div><a href="about.html">關於我們</a></div>
+                    <div><a href="allItems.html">所有商品</a></div>
+                    <div><a href="FAQ.html">FAQ</a></div>
                 </div>
             </div>
-            <div class="news-circle">
-                <div class="newsTitle">
-                    Nov.<br>
-                    News
-                </div>
+            <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt="LOGO"></a></div>
+
+            <div class="push-right"></div>
+
+            <ul>
+                <li><a href="allNEWS.html">全部消息</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="allItems.html">所有商品</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+
+            <div class="member-area">
+                <div class="nav-cart"><a href="#"><img src="material/icon-cart_0.png" alt=""></a></div>
+                <div class="nav-user"><a href="#"><img src="material/icon-member_0.png" alt=""></a></div>
             </div>
+        </nav>
+    </header>
+    <script src="JS/header.js"></script>
+
+
+    <div class="banner">
+        <p class="slogan">簡單生活<br>　　　　　隨心選物</p>
     </div>
 
-    <div class="best-sells">
-        <div class="container">
-            <div class="left-column">
-                <div class="best-slogan"><marquee behavior="" direction="">BEST SELLS</marquee></div>
-                <div class="best-slogan2">BEST SELLS</div>
-                <div class="best-top2">
-                    <div class="topimg" >
-                        <img src="material/top2.jpg" class="top2">
+    <div class="index-news">
+        <div class="news-left-block">
+            <div class="headline-news-title">
+                <div class="circle"></div>
+                <div class="square"></div>
+                <div class="text">精選消息</div>
+            </div>
+            <div id="headline-news-block"></div>
+            <div class="more"><a href="allNEWS.html">更多消息</a></div>
+        </div>
+        <div class="news-right-block">
+            <div id="index-NewsBox"></div>
+        </div>
+    </div>
+
+    <div class="indexAbout">
+        <div class="top">
+            <div class="aboutKnowUs">認識我們
+                <div class="aboutSqur"></div>
+            </div>
+            <div class="storyInfo">
+                <div class="storyTitle">我們的故事</div>
+                <div class="storyText">
+                    始於對美好生活的追求，一個對簡約和文化的無盡愛戀。<br><br>
+                    
+                    我們致力於打造一個獨特的生活方式，結合傳統藝術與現代設計，將這份愛轉化成了一個獨特的雜貨品牌，致力於為您打造簡約而精緻的生活。 
+                </div>
+                <div class="more"><a href="about.html">觀看更多......</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="Featured" id="Featured">
+        <div class="Featured-big">
+            <div class="Featured-left">
+                <div class="Feat-squr-wrap">
+                    <div class="squree-s"></div>
+                    <div class="squree-m"></div>
+                    <div class="featuredTitle">精選商品</div>
+                </div>
+                <div class="pic"><img id="featured-pic" src="#" alt="商品名稱"></div>
+                <div class="FeaturedItemTitle">
+                    <div class="FeaturedItemInfo">
+                        <div class="text" id="featured-name">商品名稱</div>
+                        <div class="backColor"></div>
                     </div>
-                    <div class="toptext">TOP2</div>
+                    <div class="price" id="featured-price">NT.99999</div>
                 </div>
             </div>
-            <div class="right-column">
-                <div class="best-top1">
-                    <div class="topimg">
-                        <img src="material/top1.jpg" class="top1">
+            <div class="FeaturedMiddle"></div>
+            <div class="FeaturedRight">
+                <div class="Featured-RT">
+                    <div class="FeaturedIntroduce" id="featured-content">
+                        極致純淨，空間中的一抹雅致之選。如水晶一般晶瑩剔透，完美呈現花卉之美。<br><br>
+                        簡約的設計融入現代生活，使得這個花瓶不僅是裝飾品，更是一種生活態度。
+                        <br><br>
+                        適合放置於任何角落，它能為家居帶來清新自然的氛圍，成為每日生活中的一抹亮色。精湛工藝、獨特造型，每個花瓶都是一件獨一無二的藝術品。選擇我們的花瓶，將自然之美注入居家空間，讓您的生活更加美好。 <br><br>
                     </div>
-                    <div class="toptext">TOP1</div>
                 </div>
-                <div class="best-top3">
-                    <div class="topimg" >
-                        <img src="material/woodClock.jpg" class="top3">
-                    </div>
-                    <div class="toptext">TOP3</div>
+                
+                <div class="FeaturedBottom">
+                        <div class="cartBar">
+                            <div class="quantity-input">
+                                <!-- 減少按鈕，設定 id 為 decreaseBtn -->
+                                <button class="quantity-btn" id="decreaseBtn">－</button>
+                                <!-- 商品數量輸入框，type 改為 number -->
+                                <input type="number" id="quantity" value="1">
+                                <!-- 增加按鈕，設定 id 為 increaseBtn -->
+                                <button class="quantity-btn" id="increaseBtn">＋</button>
+                            </div>
+                            <button class="addBtn">加入購物車</button>
+                            <div class="buyNow"><a href="#">立即購買</a></div>
+                        </div>
                 </div>
             </div>
         </div>
+        <div id="Featured-list"></div>
+        <div class="more"><a href="allItems.html">更多商品</a></div>
     </div>
 
-    <div class="divider">
-        <div class="dot"></div>
-        <hr>
-    </div>
-    <div class="hot-title">熱門商品</div>
-    <div class="hot-wrap">
-        
-        <div class="hot-card">
-            <img src="material/vase-le.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/vase-md.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/vase-rabbit.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/item.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/item2.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/candle tree.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/clockW.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-
-        <div class="hot-card">
-            <img src="material/clockB.jpg"alt="" class="items"> 
-            <div class="hot-info">
-                <div class="name">商品名稱</div>
-                <div class="price">price</div>
-            </div>
-        </div>
-    </div>
-    <div class="divider">
-        <div class="dot"></div>
-        <hr>
-    </div>
-
-    <div class="Slogan-wrap">
-        <p class="bottomSlogan">
-            Choose what you like<br>
-            Live what you want
-        </p>
-    </div>
 
     <footer>
-        <div class="foot-wrap">
-            
-            <div class="SNS">
-                <div class="SNStext">Contact Us</div>
-                <div class="SNStext">FB</div>
-                <div class="SNStext">IG</div>
+        <div class="foot-warp">
+            <div class="foot-left">
+                <div class="foot-products">
+                    <div class="foot-products-title"></div>
+                    <div class="foot-products-list"></div>
+                </div>
+                <div class="foot-info-block">
+                    <div class="foot-logo">
+                        <img src="material/footer_logo.png" alt="">
+                    </div>
+                    <div class="foot-cont-info">
+                        <div>TEL.02-1232323</div>
+                        <div>桃園市中壢區復興路46號9樓</div>
+                        <div>morizakka@gmail.com</div>
+                    </div>
+                </div>
             </div>
-            <div class="foot-info">
-                <div class="infotext">02-1231234</div>
-                <div class="infotext">morizakka@gmail.com</div>
-                <div class="infotext">add</div>
-            </div>
-            <div class="foot-pic">
-                <img src="material/footerImg.png" alt="">
+            <div class="foot-right">
+                <ul>
+                    <li><a href="allNEWS.html">全部消息</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="allItems.html">所有商品</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li></li>
+                    <li><a href="#">隱私權聲明</a></li>
+                    <li>
+                        <div class="SNS-text">追蹤我們</div>
+                        <div class="SNS-icon"></div>
+                    </li>
+                </ul>
             </div>
         </div>
+        <div class="foot-copyright">本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示用。</div>
     </footer>
+
+    <!-- 回到頂部按鈕 -->
+    <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+    <script src="JS/scrollTopBtn.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/quantity.js"></script>
 </body>
 </html>

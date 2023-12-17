@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/element.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/foot-btns.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/scrollTopBtn.css">
+
+    <style>
+
+        .allNews{
+            margin: 100px auto 25px;
+            overflow: hidden;
+        }
+        .single{
+            width: 803px;
+            height: 90px;
+            background-color: rgba(237, 237, 237 ,5);
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+            margin: 25px auto;
+        }
+        .pic{
+            width: 94px;
+            height: 94px;
+            background-color: #fec1c1;
+            border-radius: 20px;
+        }
+        .date{
+            width: 100px;
+            height: 75px;
+            background-color: #fff;
+            margin-left: 30px;
+        }
+        .newsTitle{
+            width: 380px;
+            height: 70px;
+            background-color: #b11212;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-burger">
+                <a href="#" id="mob-menu-trigger">≡</a>
+                <div id="mob-menu" class="nav-dropdown">
+                    <div><a href="allNEWS.html">全部消息</a></div>
+                    <div><a href="about.html">關於我們</a></div>
+                    <div><a href="allItems.html">所有商品</a></div>
+                    <div><a href="FAQ.html">FAQ</a></div>
+                </div>
+            </div>
+            <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt=""></a></div>
+
+            <div class="push-right"></div>
+
+            <ul>
+                <li><a href="allNEWS.html">全部消息</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="allItems.html">所有商品</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+
+            <div class="member-area">
+                <div class="nav-cart"><a href="#"><img src="material/icon-cart_0.png" alt=""></a></div>
+                <div class="nav-user"><a href="#"><img src="material/icon-member_0.png" alt=""></a></div>
+            </div>
+        </nav>
+    </header>
+    <script src="JS/header.js"></script>
+    <div class="allNews">
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+        <div class="single">
+            <div class="pic"></div>
+            <div class="date"></div>
+            <div class="newsTitle"></div>
+        </div>
+    </div>
+
+        <div class="btn-wrap">
+            <a href="#" class="btnL">NEWS►</a>
+            <a href="#" class="btnM">ALL►</a>
+            <a href="#" class="btnR">FAQ►</a>
+        </div>
+
+
+        <footer>
+            <div class="foot-warp">
+                <div class="foot-left">
+                    <div class="foot-products">
+                        <div class="foot-products-title"></div>
+                        <div class="foot-products-list"></div>
+                    </div>
+                    <div class="foot-info-block">
+                        <div class="foot-logo">
+                            <img src="material/footer_logo.png" alt="">
+                        </div>
+                        <div class="foot-cont-info">
+                            <div>TEL.02-1232323</div>
+                            <div>桃園市中壢區復興路46號9樓</div>
+                            <div>morizakka@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-right">
+                    <ul>
+                        <li><a href="allNEWS.html">全部消息</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="allItems.html">所有商品</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li></li>
+                        <li><a href="#">隱私權聲明</a></li>
+                        <li>
+                            <div class="SNS-text">追蹤我們</div>
+                            <div class="SNS-icon"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot-copyright">本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示用。</div>
+        </footer>
+
+    <!-- 回到頂部按鈕 -->
+    <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+    <script src="JS/scrollTopBtn.js"></script>
+
+</body>
+</html>

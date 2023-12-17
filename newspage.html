@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/element.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/news_Page.css">
+    <link rel="stylesheet" href="CSS/foot-btns.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/scrollTopBtn.css">
-    <script src="JS/jquery-3.7.1.js"></script>
 </head>
 <body>
     <header>
@@ -19,9 +20,9 @@
             <div class="nav-burger">
                 <a href="#" id="mob-menu-trigger">≡</a>
                 <div id="mob-menu" class="nav-dropdown">
-                    <div><a href="allNEWS.html">全部消息</a></div>
+                    <div><a href="NEWS.html">全部消息</a></div>
                     <div><a href="about.html">關於我們</a></div>
-                    <div><a href="allItems.html">所有商品</a></div>
+                    <div><a href="ALL.html">所有商品</a></div>
                     <div><a href="FAQ.html">FAQ</a></div>
                 </div>
             </div>
@@ -30,9 +31,9 @@
             <div class="push-right"></div>
 
             <ul>
-                <li><a href="allNEWS.html">全部消息</a></li>
+                <li><a href="NEWS.html">全部消息</a></li>
                 <li><a href="about.html">關於我們</a></li>
-                <li><a href="allItems.html">所有商品</a></li>
+                <li><a href="ALL.html">所有商品</a></li>
                 <li><a href="FAQ.html">FAQ</a></li>
             </ul>
 
@@ -42,6 +43,34 @@
             </div>
         </nav>
     </header>
+    <script src="JS/header.js"></script>
+
+
+    <div class="content">
+        <div class="circleWrap">
+            <div class="back"></div>
+            <div class="front"></div>
+        </div>
+        <div class="infoBox">
+            <div class="newsTitle">森雜貨 x 台北101限定快閃店！</div>
+            <div class="pic"></div>
+            <div class="introduce">
+                <div class="text">森雜貨與台北101攜手合作，精心打造限定快閃店，將品牌的簡約時尚注入繁華都會之中！來店感受時尚風潮，一同品味生活中的美好。<br><br>
+
+                    在這個特別的快閃店活動中，您將有機會發現獨一無二的商品，從時尚配飾到文具小物，每一樣都是打破傳統的設計之作。此外，我們還推出了獨家折扣優惠，讓您在台北101感受森雜貨的獨特魅力的同時，也能盡情享受購物的樂趣。<br><br>
+                    
+                    快閃店只在12/10~03/20開放，千萬別錯過這個難得的機會！請即親臨台北101，與我們一同探索簡約時尚的美好世界。期待在這段特別的時光，與您相遇於森雜貨 x 台北101快閃店。</div>
+            </div>
+        </div>
+        <div class="trangle"></div>
+    </div>
+
+    <div class="btn-wrap">
+        <a href="#" class="btnL">NEWS►</a>
+        <a href="#" class="btnM">ALL►</a>
+        <a href="#" class="btnR">FAQ►</a>
+    </div>
+
     <footer>
         <div class="foot-warp">
             <div class="foot-left">
@@ -62,9 +91,9 @@
             </div>
             <div class="foot-right">
                 <ul>
-                    <li><a href="allNEWS.html">全部消息</a></li>
+                    <li><a href="NEWS.html">全部消息</a></li>
                     <li><a href="about.html">關於我們</a></li>
-                    <li><a href="allItems.html">所有商品</a></li>
+                    <li><a href="ALL.html">所有商品</a></li>
                     <li><a href="FAQ.html">FAQ</a></li>
                     <li></li>
                     <li><a href="#">隱私權聲明</a></li>
@@ -77,5 +106,9 @@
         </div>
         <div class="foot-copyright">本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示用。</div>
     </footer>
+
+    <!-- 回到頂部按鈕 -->
+    <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+    <script src="JS/scrollTopBtn.js"></script>
 </body>
 </html>

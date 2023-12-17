@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: #283106;
+}
+body{
+    color: #283106;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 16px;
+    /* font-size: clamp(14px, 1.111112vw, 18px); */
+}
+header,header a,footer a,footer {
+    color: #492109;
+}
+.body-bg {
+    position: fixed;
+    width: 75%;
+    height: 100%;
+    transform: translateX(20%); 
+    margin:0 auto;
+    z-index: -1;
+    background-color: #FBF8F3;
+    /* min-width: 1024px; */
+}

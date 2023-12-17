@@ -6,83 +6,152 @@
     <title>About Mori</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/font.css">
-    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/aboutBody.css">
     <link rel="stylesheet" href="CSS/foot-btns.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/aboutBody.css">
+    <link rel="stylesheet" href="CSS/scrollTopBtn.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt=""></a></div>
-        <ul class="nav-wrap">
-            <li class="nav-item"><a href="NEWS.html">全部消息</a></li>
-            <li class="nav-item"><a href="about.html">關於我們</a></li>
-            <li class="nav-item"><a href="ALL.html">所有商品</a></li>
-            <li class="nav-item"><a href="FAQ.html">FAQ</a></li>
-        </ul>
-    </nav>
-    <div class="bg-design">
-        <div class="circleLT"></div>
-        <div class="circleRT"></div>
-        <p class="title">關於我們</p>
-        <div class="L1">
-            <div class="Limg">
-                <div class="circleL"></div>
-                <img src="material/pursue.jpg">
+    <header>
+        <nav class="main-nav">
+            <div class="nav-burger">
+                <a href="#" id="mob-menu-trigger">≡</a>
+                <div id="mob-menu" class="nav-dropdown">
+                    <div><a href="allNEWS.html">全部消息</a></div>
+                    <div><a href="about.html">關於我們</a></div>
+                    <div><a href="allItems.html">所有商品</a></div>
+                    <div><a href="FAQ.html">FAQ</a></div>
+                </div>
             </div>
-        </div>
-        <div class="R">
-            <div class="Rimg">
-                <img src="material/unique.jpg">
-                <div class="circleR"></div>
-            </div>
-        </div>
-        <div class="line">
-            <div class="Ltitle">獨特</div>
-            <div class="Ltext">
-            生活中的每一個時刻都是獨特而美好的。<br><br>我們致力於尋找優質的商品，讓顧客透過每一次的選擇，都能發現生活中的獨特之處。</div>
+            <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt=""></a></div>
 
-            <p class="Rtitle">追求</p>
-            <p class="Rtext">我們相信選擇對的商品可以提升生活品質。<br><br>
-                無論是一張精緻的手工藝地毯，還是一個簡約卻充滿藝術感的文具，都是對品質和美感的追求。</p>
+            <div class="push-right"></div>
+
+            <ul>
+                <li><a href="allNEWS.html">全部消息</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="allItems.html">所有商品</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+
+            <div class="member-area">
+                <div class="nav-cart"><a href="#"><img src="material/icon-cart_0.png" alt=""></a></div>
+                <div class="nav-user"><a href="#"><img src="material/icon-member_0.png" alt=""></a></div>
+            </div>
+        </nav>
+    </header>
+    <script src="JS/header.js"></script>
+
+
+    <div class="aboutBody">
+        <div class="top">
+            <div class="bg-design">
+                <div class="title-bg"></div>
+                <div class="circleLT"></div>
+                <div class="circleRT"></div>
+                <p class="title">關於我們</p>
+            </div>
+            <div class="content">
+                <div class="space"></div>
+                <div class="Line"></div>
+                <div class="R-pic">
+                    <img src="material/unique.jpg">
+                    <div class="circleR"></div>
+                </div>
+                <div class="L-pic">
+                    <div class="circleL"></div>
+                    <img src="material/pursue.jpg">
+                </div>
+
+                <div class="L-text">
+                    <p class="Ltitle">獨特</p>
+                    <p class="Ltext">生活中的每一個時刻都是獨特而美好的。<br><br>
+                        我們致力於尋找優質的商品，讓顧客透過每一次的選擇，都能發現生活中的獨特之處。</p>
+                </div>
+                <div class="R-text">
+                    <p class="Rtitle">追求</p>
+                    <p class="Rtext">我們相信選擇對的商品可以提升生活品質。<br><br>
+                        無論是一張精緻的手工藝地毯，還是一個簡約卻充滿藝術感的文具，都是對品質和美感的追求。</p>
+                </div>
+            </div>
+
+
         </div>
-        <div class="moreBG">
-            <div class="bgc"></div>
-            <div class="bgc"></div>
-            <p class="bg-title">MORE|</p>
-        </div>
-        <p class="more">
-            <br>
-            我們的品牌故事是一個源自對生活熱愛的旅程，這個旅程充滿了探索、發現和分享。希望每一位發現我們的顧客，都能感受到這份獨特的美感，並將這份美好融入到他們的生活中。選物，就是這個美好旅程的起點。<br><br>
+        <div class="bottom">
+            <div class="more-tile">
+                <div class="bgc"></div>
+                <div class="bgc"></div>
+                <p class="more-text">MORE|</p>
+            </div>
             
-            我們決定打破傳統的購物體驗，創造一個讓人感到驚喜和啟發的空間。深信每個小物件都有著獨特的故事，而這些故事可以豐富我們的日常生活。<br>
-            這裡不僅僅是一個購物的地方，更像是一個富有創意和靈感的社區。我們將定期舉辦各種活動，分享文化、藝術和手工藝的美，讓顧客有機會與各領域的匠人和藝術家互動。<br>
-            每一樣商品都經過精挑細選，無論是源自日本的簡約風格，還是來自世界各地的手工藝品，都代表著我們對品質和獨特性的堅持。<br>
-        </p>
-        <p class="imp"><strong>我們追求的不僅是商品本身，更是其中所隱藏的美好故事。</strong></p>
+            <div class="d-flex">
+                <div class="left-sapce"></div>
+                <div class="right-content">
+                    <p class="more">
+                        <br>
+                        我們的品牌故事是一個源自對生活熱愛的旅程，這個旅程充滿了探索、發現和分享。希望每一位發現我們的顧客，都能感受到這份獨特的美感，並將這份美好融入到他們的生活中。選物，就是這個美好旅程的起點。<br><br>
+                        
+                        我們決定打破傳統的購物體驗，創造一個讓人感到驚喜和啟發的空間。深信每個小物件都有著獨特的故事，而這些故事可以豐富我們的日常生活。<br>
+                        這裡不僅僅是一個購物的地方，更像是一個富有創意和靈感的社區。我們將定期舉辦各種活動，分享文化、藝術和手工藝的美，讓顧客有機會與各領域的匠人和藝術家互動。<br>
+                        每一樣商品都經過精挑細選，無論是源自日本的簡約風格，還是來自世界各地的手工藝品，都代表著我們對品質和獨特性的堅持。<br>
+                    </p>
+                    <p class="imp"><strong>我們追求的不僅是商品本身，更是其中所隱藏的美好故事。</strong></p>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
     <div class="btn-wrap">
         <a href="NEWS.html" class="btnL">NEWS►</a>
         <a href="ALL.html" class="btnM">ALL►</a>
         <a href="FAQ.html" class="btnR">FAQ►</a>
     </div>
+
     <footer>
-        <div class="foot-wrap">
-            
-            <div class="SNS">
-                <div class="SNStext">Contact</div>
-                <div class="SNStext">FB</div>
-                <div class="SNStext">IG</div>
+        <div class="foot-warp">
+            <div class="foot-left">
+                <div class="foot-products">
+                    <div class="foot-products-title"></div>
+                    <div class="foot-products-list"></div>
+                </div>
+                <div class="foot-info-block">
+                    <div class="foot-logo">
+                        <img src="material/footer_logo.png" alt="">
+                    </div>
+                    <div class="foot-cont-info">
+                        <div>TEL.02-1232323</div>
+                        <div>桃園市中壢區復興路46號9樓</div>
+                        <div>morizakka@gmail.com</div>
+                    </div>
+                </div>
             </div>
-            <div class="foot-info">
-                <div class="infotext">tel</div>
-                <div class="infotext">mail</div>
-                <div class="infotext">add</div>
-            </div>
-            <div class="foot-pic">
-                <img src="material/footerImg.png" alt="">
+            <div class="foot-right">
+                <ul>
+                    <li><a href="allNEWS.html">全部消息</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="allItems.html">所有商品</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li></li>
+                    <li><a href="#">隱私權聲明</a></li>
+                    <li>
+                        <div class="SNS-text">追蹤我們</div>
+                        <div class="SNS-icon"></div>
+                    </li>
+                </ul>
             </div>
         </div>
+        <div class="foot-copyright">本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示用。</div>
     </footer>
+
+    <!-- 回到頂部按鈕 -->
+    <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+    <script src="JS/scrollTopBtn.js"></script>
 </body>
 </html>

@@ -7,7 +7,8 @@
 </div> */
 .btn-wrap{
     margin: auto;
-    width: 1200px;
+    width: 62.25%;
+    max-width: 1200px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -15,12 +16,14 @@
 }
 .btn-wrap a{
     font-size: 30px;
-    width: 400px;
+    width: 33.333333%;
     height: 80px;
     background-color: #CBBBB3;
     text-align: center;
     align-items: center;
     line-height: 80px;
+    text-decoration:none;
+    color:#283106;
 }
 .btnL{
     border-top-left-radius: 125px;

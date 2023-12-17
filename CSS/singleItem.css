@@ -1,0 +1,58 @@
+.singleItem{
+    width: 100%;
+    max-width: 1920px;
+    aspect-ratio: 1920/1182;
+    margin: 200px auto;
+    position: relative;
+    padding: 1px;
+}
+.wrap{
+    height: 88.57%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 133px;
+}
+.singleBG{
+    position: absolute;
+    z-index: -1;
+    right: 3%;
+    bottom: 0;
+    aspect-ratio: 1435/1086;
+    width: 75%;
+}
+.itemPic{
+    width: 55%;
+    aspect-ratio: 1/1;
+    background-image: url(../material/vase-rabbit.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+.itemInfo{
+    width: 34%;
+    height: 80%;
+    margin-left: 2%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    margin-top: 20px;
+    font-size: 1.75em;
+}
+.price{
+    margin: 25px 0;
+    font-size: 1.2em;
+}
+.introduce{
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+.detail{
+    margin-bottom: 50px;
+    font-size: 1.2em;
+}
+.push{
+    flex-grow: 1;
+}

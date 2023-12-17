@@ -1,0 +1,143 @@
+header{
+    background-color: #F5EFE4;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.main-nav{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    box-sizing: border-box;
+    padding-bottom: 7px;
+    padding-left: 4.5%;
+    padding-right: 2%;
+
+    font-size: 1.7em;
+}
+
+.main-nav a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+
+
+.nav-logo {
+    width: 225px;
+}
+
+.nav-logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-nav .push-right{
+    flex-grow: 1;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0 0 4px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 20em;
+}
+
+.member-area {
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+    margin-left: 3%;
+}
+
+.nav-cart {
+    width: 42px;
+    height: 42px;
+}
+
+.nav-user {
+    width: 44px;
+    height: 44px;
+}
+
+.member-area img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 手機板漢堡選單 */
+.nav-burger { display: none; }
+
+.nav-dropdown {
+    display: none;
+    position: fixed; /* 修改為固定定位 */
+    top: 75px; 
+    left: 0;
+    height: 100vh;
+    width: 50vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main-nav ul ,.main-nav .push-right{
+        display: none;
+    }
+    .nav-burger {
+        display: block;
+        font-size: 2em;
+    }
+
+    .nav-dropdown div{
+        font-size: 0.6em;
+    }
+    #mob-menu-trigger {
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 10vh;
+    }
+
+    .nav-dropdown {
+        top: 10vh;
+    }
+
+    .nav-burger {
+        font-size: clamp(32px, 10vw, 65px);
+    }
+
+    .member-area {
+        width: 20vw;
+        margin-left: 0;
+    }
+    
+    .nav-cart {
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .nav-user {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .nav-logo {
+        width: 45vw;
+    }
+}
