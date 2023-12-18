@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="CSS/quantityBar.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/scrollTopBtn.css">
+    <link rel="stylesheet" href="CSS/indexRWD.css">
     <script src="JS/jquery-3.7.1.js"></script>
 </head>
 <body>
@@ -85,10 +86,6 @@
             </div>
         </div>
     </div>
-
-
-
-
     <div class="Featured" id="Featured">
         <div class="Featured-big">
             <div class="Featured-left">
@@ -97,10 +94,10 @@
                     <div class="squree-m"></div>
                     <div class="featuredTitle">精選商品</div>
                 </div>
-                <div class="pic"><img id="featured-pic" src="#" alt="商品名稱"></div>
+                <div class="pic"><img id="featured-pic" src="material/topic.jpg" alt="商品名稱"></div>
                 <div class="FeaturedItemTitle">
                     <div class="FeaturedItemInfo">
-                        <div class="text" id="featured-name">商品名稱</div>
+                        <div class="text" id="featured-name">毫無保留</div>
                         <div class="backColor"></div>
                     </div>
                     <div class="price" id="featured-price">NT.99999</div>
@@ -117,20 +114,20 @@
                     </div>
                 </div>
                 
-                <div class="FeaturedBottom">
-                        <div class="cartBar">
-                            <div class="quantity-input">
-                                <!-- 減少按鈕，設定 id 為 decreaseBtn -->
-                                <button class="quantity-btn" id="decreaseBtn">－</button>
-                                <!-- 商品數量輸入框，type 改為 number -->
-                                <input type="number" id="quantity" value="1">
-                                <!-- 增加按鈕，設定 id 為 increaseBtn -->
-                                <button class="quantity-btn" id="increaseBtn">＋</button>
-                            </div>
-                            <button class="addBtn">加入購物車</button>
-                            <div class="buyNow"><a href="#">立即購買</a></div>
+            <div class="FeaturedBottom">
+                    <div class="cartBar">
+                        <div class="quantity-input">
+                            <!-- 減少按鈕，設定 id 為 decreaseBtn -->
+                            <button class="quantity-btn" id="decreaseBtn">－</button>
+                            <!-- 商品數量輸入框，type 改為 number -->
+                            <input type="number" id="quantity" value="1">
+                            <!-- 增加按鈕，設定 id 為 increaseBtn -->
+                            <button class="quantity-btn" id="increaseBtn">＋</button>
                         </div>
-                </div>
+                        <button class="addBtn">加入購物車</button>
+                        <div class="buyNow"><a href="#">立即購買</a></div>
+                    </div>
+            </div>
             </div>
         </div>
         <div id="Featured-list"></div>

@@ -1,0 +1,101 @@
+@media only screen and (max-width: 768px) {
+    header{
+        background-color: #F5EFE4;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .banner{
+        width: 100vh;
+        aspect-ratio: 16/9;
+        max-width: 1920px;
+        margin: 75px auto 0;
+        background-image: url(../material/banner_1920-890.png);
+        background-size: cover;
+        background-position: center center;   
+        display: flex;
+        align-items: end;
+    }
+    .slogan{
+        font-size: 1.5em;
+        writing-mode: vertical-lr;
+        margin-bottom: 18%;
+        margin-left: 10%;
+    }
+    
+    .index-news{
+        width: 100vh;
+        height: 100vw;
+        max-width: 1920px;
+        margin: 9px auto 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .news-left-block {
+        width: 70%;
+        margin-left: 5%;
+    }
+    .news-right-block{
+        width: 21%;
+        margin-left: 2%;
+        min-width: 300px;
+        margin-right: 2%;
+        margin-top: 82px;
+    }
+    .headline-news-title{
+        width: 92.013889%;
+        margin-bottom: 20px;
+        margin-left: 7.986111%;
+        position: relative;
+        padding: 1px;
+    }
+    .headline-news-title>.square{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #AAB7C0;
+        z-index: -1;
+        top: 71px;
+        left: 0;
+    }
+    
+    .headline-news-title>.circle{
+        position: absolute;
+        background-color:#E4D0C7;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        z-index: -1;
+        top: 0;
+        left: 2.5%;
+    }
+    .headline-news-title>.text{
+        margin-top: 65px;
+        font-size: 1.3em;
+        margin-left: 45px;
+    }
+    #headline-news-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #headline-news-block>.headline-news{
+        margin: 0 4px;
+    }
+    
+    .index-news>.news-left-block>.more{
+        display: none;
+    }
+    .Featured{
+        width: 100vh;
+    }
+    .indexAbout{
+        width: 100vh;
+    }
+}

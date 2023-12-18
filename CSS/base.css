@@ -13,6 +13,9 @@ body{
     font-size: 16px;
     /* font-size: clamp(14px, 1.111112vw, 18px); */
 }
+@media only screen and (max-width: 600px) {
+    body{font-size: 12px;}
+}  
 header,header a,footer a,footer {
     color: #492109;
 }

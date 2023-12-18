@@ -52,12 +52,16 @@
     height: 54px;
     margin: 1px;
 }
-.pic{
+.newsPic{
     width: 92.710472%;
     height: 264px;
     background-color: rgb(51, 163, 163);
-    
     border-radius: 30px;
+    overflow: hidden;
+}
+.newsPic img{
+    width: 100%;
+    object-fit: cover;
 }
 .introduce{
     width: 92.710472%;
@@ -65,7 +69,8 @@
     margin: 10px 0 100px;
     border-radius: 30px;
 }
-.text{
+.introduce .text{
+    font-size: 1.2em;
     min-height: 200px;
     width: 90.254707%;
     margin: 30px 0 50px 2.5%;

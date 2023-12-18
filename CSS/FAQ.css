@@ -1,67 +1,75 @@
 .QAwrap{
     border: 2px solid #000;
-    border-top: transparent;
+    border-top: none;
+    /* border-top: transparent; */
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
-    height: 2000px;
-    width: 1440px;
-    margin: auto;
-    position: absolute;
-    left: 223px;
-    
+    /* height: 2000px; */
+    width: 75%;
+    margin: 75px auto 10%;
+    /* position: absolute; */
+    /* left: 223px; */
+    overflow: hidden;
 }
 .QAtitle{
     display: grid;
     place-items: center; /* 同时水平和垂直居中 */
     margin: 10% auto auto auto;
-    font-size: 48px;
+    font-size: 2em;
+    line-height: 3;
     text-align: center;
     vertical-align: middle;
-    width: 1200px;
-    height: 100px;
+    width: 83%;
+    /* height: 100px; */
     background-color: #E5D9CB;
     border-radius: 50px;
 }
 .QAquestion{
-    font-size: 36px;
+    font-size: 1.5em;
     font-weight:inherit;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     margin: 5% auto auto auto;
     text-align: start;
     vertical-align: middle;
-    width: 1200px;
-    height: 100px;
+    width: 83%;
+    /* height: 100px; */
     background-color: #CBBBB3;
     border-radius: 30px;
     padding-left: 30px;
 }
+
+.QAquestion p{
+    margin: 0.8em 0;
+    width: calc(100% - 30px);
+}
+
+
 .QAans{
-    font-size: 32px;
+    font-size: 1.5em;
+    line-height: 1.1;
     display: flex;
     align-items: center;
     text-align: start;
     vertical-align: middle;
     margin: 10px auto auto auto;
-    width: 1200px;
-    height: 300px;
+    width: 83%;
+    /* height: 300px; */
     background-color: #E5D9CB;
     border-radius: 30px;
     padding-left: 30px;
 }
 .QAtext{
-    width: 800px;
+    width: 95%;
+    margin: 1.4em 0;
 }
 .QAother{
-    font-size: 30px;
+    font-size: 1.4em;
     font-weight: lighter;
     display: grid;
     place-items: center; /* 同时水平和垂直居中 */
-    margin: 15% auto auto auto;
+    margin: 15% auto 10% auto;
     text-align: center;
     vertical-align: middle;
-}
-.QAback{
-    height: 2000px;
-    margin-bottom: 10%;
 }
