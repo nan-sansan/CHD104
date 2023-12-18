@@ -75,8 +75,13 @@
     border-radius: 20px;
     margin-top: 20%;
     margin-left: 13%;
+    overflow: hidden;
 }
-
+.Featured-left>.pic>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .FeaturedItemTitle{
     display: flex;

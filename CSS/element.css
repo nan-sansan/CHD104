@@ -15,14 +15,14 @@
     width: 80%;
     height: 213px;
     border-radius: 20px;
+    overflow: hidden;
 }
 .headline-news>.pic>img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .headline-news>.title{
-    background-color: #ff0;
     width: 80%;
     font-size: 1.4em;
     height: 1em;
@@ -34,7 +34,6 @@
 }
 .headline-news>.text{
     margin: 1ex auto 16px auto;
-    background-color: #0ff;
     width: 80%;
     font-size: 1em;
     line-height: 1.2em;
@@ -47,7 +46,6 @@
 
 /* ---------------------------------新聞盒子--------------------------------- */
 #index-NewsBox{
-    background-color: #f0f;
     /* width: 300px; */
     width: 100%;
     height: 610px;
@@ -59,7 +57,7 @@
     width: 0;
 }
 #index-NewsBox a{
-    color: black;
+    color: #283106;
     text-decoration: none;
 }
 #index-NewsBox>.title{
@@ -86,14 +84,13 @@
     max-width: 300px;
     min-width: 250px;
     aspect-ratio: 254 / 268;
-    background-color: #0ff;
+
 }
 .top-picks-item>.top{
     width: 100%;
     height: 88.059701%;
-    background-color: #ff0;
     position: relative;
-    overflow: hidden;
+    display: block;
 }
 .top-picks-item>.top>.space{
     height: 11.440678%;
@@ -103,19 +100,21 @@
     width: 89.370079%;
     height: 88.559322%;
     background-color: #eee;
+    overflow: hidden;
 }
 
 .top-picks-item>.top>.pic>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 .top-picks-item>.top>.sti{
     position: absolute;
     width: 25.984252%;
     padding-bottom: 25.984252%;
-    background-color: darkred;
+    background-color: #AAB7C0;
     left: 0;
     top: 0;
 }
@@ -126,7 +125,6 @@
     width: 85.433071%;
     height: 7.835821%; 
     margin-left: 14.566929%;
-    background-color: #eeFFEe;
     position: relative;
     overflow: hidden;
 }

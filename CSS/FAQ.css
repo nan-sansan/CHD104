@@ -1,4 +1,4 @@
-.wrap{
+.QAwrap{
     border: 2px solid #000;
     border-top: transparent;
     border-bottom-left-radius: 150px;
@@ -10,7 +10,7 @@
     left: 223px;
     
 }
-.title{
+.QAtitle{
     display: grid;
     place-items: center; /* 同时水平和垂直居中 */
     margin: 10% auto auto auto;
@@ -22,12 +22,12 @@
     background-color: #E5D9CB;
     border-radius: 50px;
 }
-.question{
+.QAquestion{
     font-size: 36px;
     font-weight:inherit;
     display: flex;
     align-items: center;
-    margin: 10% auto auto auto;
+    margin: 5% auto auto auto;
     text-align: start;
     vertical-align: middle;
     width: 1200px;
@@ -36,7 +36,7 @@
     border-radius: 30px;
     padding-left: 30px;
 }
-.ans{
+.QAans{
     font-size: 32px;
     display: flex;
     align-items: center;
@@ -44,12 +44,15 @@
     vertical-align: middle;
     margin: 10px auto auto auto;
     width: 1200px;
-    height: 100px;
+    height: 300px;
     background-color: #E5D9CB;
     border-radius: 30px;
     padding-left: 30px;
 }
-.other{
+.QAtext{
+    width: 800px;
+}
+.QAother{
     font-size: 30px;
     font-weight: lighter;
     display: grid;
@@ -58,7 +61,7 @@
     text-align: center;
     vertical-align: middle;
 }
-.back{
+.QAback{
     height: 2000px;
     margin-bottom: 10%;
 }

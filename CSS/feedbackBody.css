@@ -1,14 +1,15 @@
-.feedback{
-    width: 1200px;
-    height: 1700px;
+.FBfeedback{
+    width: 80%;
+    /* width: 1200px; */
+    /* height: 1700px; */
     background-color: #E5D9CB;
     border-radius: 25px;
     margin: 10% auto 10% auto;
     padding-top: 5%;
 }
-.circle{
-    width: 500px;
-    height: 500px;
+.FBcircle{
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: #CBBBB3;
     margin:  auto auto;
@@ -17,13 +18,13 @@
     justify-content: center;
     align-items: center;
 }
-.title{
+.FBtitle{
     writing-mode: vertical-lr;
     font-size: 48px;
     margin: auto;
     text-align: center;
 }
-.text{
+.FBtext{
     margin-top:5%;
     font-size: 30px;
     display: flex;
@@ -31,7 +32,7 @@
     align-items: center;
     text-align: center;
 }
-.infos{
+.FBinfos{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -39,25 +40,24 @@
     align-items: flex-end;
     padding-right: 25%;
     margin-top: 10%;
-    /* text-align: center; */
 }
-.infos div{
+.FBinfos div{
     font-size: 24px;
 }
-.info{
+.FBinfo{
     margin-top: 40px;
     padding-left: 10px;
     font-size: 20px;
     border-radius: 20px;
     width: 500px;
     height: 40px;
-    background-color: #E4E4E4;
+    background-color: #f0f0f0;
     border: 1px solid #0005;
 }
-.textbox .info{
+.FBtextbox .FBinfo{
     height: 300px;
 }
-.submit{
+.FBsubmit{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@
 textarea{
     resize: none;
 }
-.back{
+.FBback{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ textarea{
     height: 60px;
     padding: 5px;
 }
-.btns{
+.FBbtns{
     width: 500px;
     display: flex;
     justify-content: space-between;
@@ -90,4 +90,10 @@ textarea{
     margin-top: 3%;
     margin-left: 30%;
     text-align: center;
+}
+.FBsubmit:hover{
+    background-color: #caaaa3;
+}
+.FBback:hover{
+    background-color: #d9d9d9;
 }
