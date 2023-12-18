@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="CSS/foot-btns.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/scrollTopBtn.css">
+    <script src="JS/jquery-3.7.1.js"></script>
 </head>
 
 <body>
@@ -42,6 +44,8 @@
             </div>
         </nav>
     </header>
+    <script src="JS/header.js"></script>
+
     <div class="allContainer">
         <div class="itemTitle">
             <div class="titleText">商品一覽<div class="titleSque"></div></div>
@@ -186,6 +190,9 @@
         </div>
         <div class="foot-copyright">本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示用。</div>
     </footer>
+    <!-- 回到頂部按鈕 -->
+    <div id="scrollTopBtn" onclick="scrollToTop()">▲</div>
+    <script src="JS/scrollTopBtn.js"></script>
     <script src="JS/jquery-3.7.1.js"></script>
     <script>
         $(document).ready(function() {

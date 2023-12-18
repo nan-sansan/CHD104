@@ -26,7 +26,7 @@
     font-size: 16px;
 }
 .itemTitle{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     width: 100%;
     height: 235px;
     background-color: rgba(237,237,237,0.5);

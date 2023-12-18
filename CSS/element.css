@@ -17,10 +17,10 @@
     border-radius: 20px;
     overflow: hidden;
 }
-.headline-news>.pic>img{
+.headline-news>.pic img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .headline-news>.title{
     width: 80%;
@@ -97,17 +97,22 @@
 }
 .top-picks-item>.top>.pic{
     margin-left: 10.629921%;
+    max-width: 300px;
     width: 89.370079%;
     height: 88.559322%;
+    /* aspect-ratio: 302 / 264; */
     background-color: #eee;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.top-picks-item>.top>.pic>img{
+.top-picks-item>.top>.pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+    /* aspect-ratio: 302 / 264; */
 }
 
 .top-picks-item>.top>.sti{

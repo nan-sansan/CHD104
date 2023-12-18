@@ -27,7 +27,7 @@
 
 .news-left-block {
     width: 70%;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     margin-left: 5%;
 }
 .news-right-block{
