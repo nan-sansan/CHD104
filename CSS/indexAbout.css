@@ -57,3 +57,45 @@
     text-decoration: none;
     color: #283106;
 }
+@media only screen and (max-width: 767px){
+    .indexAbout{
+        width: 100vw;
+        height: auto;
+        aspect-ratio: 16/9;
+        margin: 5vh auto;
+    }
+    .aboutTitleWrap{
+        width: 520px;
+        overflow: hidden;
+    }
+    .aboutSqur{
+        width: 70px;
+        height: 70px;
+        right: -15px;
+        top: -50px;
+    }
+    .aboutKnowUs{
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 70px;
+        font-size: 1.5em;
+    }
+    /* ------- */
+    .storyInfo{
+        height: 100vw;
+        width: 35%;
+        min-width: 20em;
+        max-width: 30em;
+    }
+    .storyTitle{
+        margin-top: 40%;
+        /* margin-top: 320px; */
+        font-size: 1.5em;
+    }
+    .storyText{
+        margin-top: 20px;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    
+}

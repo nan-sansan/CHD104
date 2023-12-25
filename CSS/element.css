@@ -43,7 +43,37 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
 }
+@media only screen and (max-width: 767px){
+    .headline-news{
+        min-width: 30vw;
+        max-width: 30vw;
+        flex-grow: 1;
+        /* width: 21%; */
+        aspect-ratio: 2/4;
+        height: auto;
+        background-color: #E9DFDA;
+        border-radius: 10px;
+    }
+    .headline-news>.pic{
+        margin: 15px auto 20px auto;
+        background-color: #fff;
+        width: 80%;
+        aspect-ratio: 1/1;
+        height: auto;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .headline-news>.title{
+        font-size: 1.2em;
+    }
+    .headline-news>.text{
+        margin: 1ex auto 16px auto;
+        font-size: 1em;
+        line-height: 1em;
+        line-height: 1.5;
+    }
 
+}
 /* ---------------------------------新聞盒子--------------------------------- */
 #index-NewsBox{
     /* width: 300px; */

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 767px){
+    .allNews{
+        margin: 100px auto 0px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .single{
+        width: 100%;
+        max-width: 1024px;
+        min-height: 80px;
+        background-color: rgba(237, 237, 237 ,0.5);
+        border-bottom: 1px solid #CBBBB3;
+        display: flex;
+        align-items: center;
+        border-radius: 0px;
+        margin: 10px 0;
+    }
+    .pic{
+        width: 94px;
+        height: 94px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        position: relative;
+    }
+    .pic img{
+        width: 102%;
+        height: 102%;
+        object-fit: cover;
+        position: absolute;
+        top: -1%;
+    }
+    .date{
+        width: 12.5%;
+        min-width: 40px;
+        margin-left: 30px;
+        font-size: 1.2em;
+    }
+    .newsTitle{
+        flex-grow: 1;
+        margin: 1em 10% 1em 30px;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+}

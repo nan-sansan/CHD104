@@ -98,9 +98,3 @@
         text-align: end;
     }
 }
-
-@media only screen and (max-width: 768px) {
-    .banner{
-        margin-top: 10vh;
-    }
-}

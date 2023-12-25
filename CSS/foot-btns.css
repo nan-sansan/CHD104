@@ -35,3 +35,9 @@
     border-bottom-right-radius: 125px;
     border-left: 1px solid #000;
 }
+
+@media only screen and (max-width: 768px){
+    .btn-wrap {
+        display: none;
+    }
+}

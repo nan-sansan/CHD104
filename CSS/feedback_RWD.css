@@ -1,0 +1,71 @@
+@media only screen and (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .FBfeedback{
+        width: 80vw;
+        height: auto;
+        flex-grow: 1;
+    }
+    .FBcircle{
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        background-color: #CBBBB3;
+        margin:  15% auto 5%;
+        top: 0;
+    }
+    .FBtitle{
+        font-size: 2em;
+    }
+    .FBtext{
+        margin-top:0;
+        font-size: 1.2em;
+        line-height: 1.2;
+        text-align: start;
+    }
+    .FBinfos div{
+        font-size: 1em;
+    }
+    .FBinfos{
+        display: block;
+        padding: 0;
+        margin: 10% 0;
+        margin-left: 10%;
+    }
+    .FBinfo{
+        margin-top: 10px;
+        padding-left: 0.5em;
+        font-size: 1em;
+        border-radius: 10px;
+        width: 80%;
+        height: 2em;
+    }
+    .FBtextbox .FBinfo{
+        height: 20vw;
+    }
+    .FBsubmit{
+        border-radius: 5px;
+        font-size: 1.5em;
+        width: 10vw;
+        aspect-ratio: 4/3;
+        height: auto;
+        padding: 5px;
+        margin-left: 5%;
+    }
+    .FBback{
+        border-radius: 5px;
+        font-size: 1.5em;
+        width: 10vw;
+        aspect-ratio: 4/3;
+        height: auto;
+        padding: 5px;
+    }
+    .FBbtns{
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 5% 0;
+    }
+}

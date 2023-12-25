@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px){
+    .QAwrap{
+        width: 90%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin: 75px auto 5%;
+    }
+    .QAtitle{
+        font-size: 1.5em;
+        line-height: 2;
+        width: 80%;
+        border-radius: 25px;
+    }
+    .QAquestion{
+        font-size: 1.2em;
+        font-weight:inherit;
+        line-height: 1.5;
+        width: 75%;
+        border-radius: 15px;
+        padding-left: 20px;
+    }
+    .QAans{
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin: 10px auto auto auto;
+        width: 75%;
+        background-color: #E5D9CB;
+        border-radius: 15px;
+        padding-left: 20px;
+    }
+    .QAtext{
+        width: 95%;
+    }
+    .QAother{
+        font-size: 1.2em;
+        margin: 8% auto 5% auto;
+    }
+}

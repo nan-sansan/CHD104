@@ -133,9 +133,24 @@ footer{
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     footer{
-        width: 100vh;
-        height: 100%;
+        width: 100vw;
+        height: auto;
     }
+    .foot-right,.foot-products-title,.foot-products-list,.foot-products{
+        display: none;
+    }
+    .foot-logo {
+        width: 40vw;
+        /* aspect-ratio: 16/9; */
+    }
+    .foot-logo img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .foot-warp .SNS-text{
+        font-size: 0.5em;
+    }
+
 }

@@ -54,7 +54,7 @@
 }
 .newsPic{
     width: 92.710472%;
-    height: 264px;
+    height: auto;
     background-color: rgb(51, 163, 163);
     border-radius: 30px;
     overflow: hidden;
@@ -74,4 +74,7 @@
     min-height: 200px;
     width: 90.254707%;
     margin: 30px 0 50px 2.5%;
+}
+.moreNewsWrap{
+    display: none;
 }

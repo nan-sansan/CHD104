@@ -1,0 +1,117 @@
+@media only screen and (max-width: 767px){
+    .singleItem{
+        width: 100vw;
+        margin: 25vw auto 10vw;
+        aspect-ratio: 0;
+        height: auto;
+    }
+    .singleBG{
+        right: 0;
+        aspect-ratio: 1/1;
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+        border-radius: 0;
+    }
+    .wrap{
+        height: 88%;
+        display: block;
+        margin-bottom: 0px;
+    }
+    .itemPic{
+        width: 90%;
+        border-radius: 10px;
+        aspect-ratio: 4/3;
+        margin:auto;
+    }
+    .itemInfo{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+    .price{
+        margin: 15px 0 0;
+        font-size: 1.2em;
+    }
+    .introduce{
+        margin-top: 1.5em;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    .detail{
+        margin:1.5em 0;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    .push{
+        display: none;
+    }
+    .cartBar{
+        display: flex;
+        justify-content: flex-end;
+        width: 90vw;
+    }
+    .addBtn,.buyNow{
+        width: 30vw;
+        height: 3em;
+        font-size: 1.2em;
+        margin-left: 3%;
+        border-radius: 15px;
+    }
+    .quantity-input {
+        height: 4em;
+    }
+    .quantity-btn {
+        font-size: 1.5em;
+        height: 100%;
+    }
+    #quantity {
+        text-align: center;
+        border: none;
+        height: 100%;
+        width: 50px;
+    }
+    .Maybe{
+        flex-wrap: nowrap;
+        overflow:scroll;
+        margin-bottom: 15vw;
+    }
+    .maybeyoulike {
+        font-size: 1.5em;
+        margin: 0 10vw;
+    }
+    .item-Box{
+        margin: 5vw 1vw 0 0;
+    }
+    .item-Card{
+        width: 30vw;
+    }
+    .item-Pic{
+        width: 100%;
+        height: auto;
+    }
+    .item-Info{
+        width: 100%;
+        height: 15vw;
+        border-left: 1px solid #CBBBB3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 0;
+    }
+    .item-Name{
+        padding-left: 5px;
+        height: 30%;
+        font-size: 1em;
+    }
+    .item-Price{
+        padding-left: 5px;
+        height: 30%;
+        font-size: 1em;
+    }
+
+}

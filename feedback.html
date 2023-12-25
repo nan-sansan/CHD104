@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="CSS/font.css">
         <link rel="stylesheet" href="CSS/footer.css">
         <link rel="stylesheet" href="CSS/feedbackBody.css">
+        <link rel="stylesheet" href="CSS/feedback_RWD.css">
+        <link rel="stylesheet" href="CSS/scrollTopBtn.css">
         <script src="JS/jquery-3.7.1.js"></script>
 </head>
 <body>
@@ -18,10 +20,10 @@
             <div class="nav-burger">
                 <a href="#" id="mob-menu-trigger">≡</a>
                 <div id="mob-menu" class="nav-dropdown">
-                    <div><a href="allNEWS.html">全部消息</a></div>
-                    <div><a href="about.html">關於我們</a></div>
-                    <div><a href="allItems.html">所有商品</a></div>
-                    <div><a href="FAQ.html">FAQ</a></div>
+                    <a href="allNEWS.html">全部消息</a>
+                    <a href="about.html">關於我們</a>
+                    <a href="allItems.html">所有商品</a>
+                    <a href="FAQ.html">FAQ</a>
                 </div>
             </div>
             <div class="nav-logo"><a href="index.html"><img src="material/LOGO.png" alt=""></a></div>
@@ -43,23 +45,30 @@
     </header>
     <script src="JS/header.js"></script>
     <div class="FBfeedback">
-        <div class="FBcircle"><p class="FBtitle">問題諮詢</p></div>
-        <div class="FBtext">如有對商店的意見或任何其他問題，<br>
-            歡迎透過此表格與我們聯絡。</div>
-        <div class="FBinfos">
-            <div class="FBname" >姓名（必填）<input type="name" class="FBinfo" placeholder="請填入姓名或您希望的稱呼"></div>
-
-            <div class="FBmail">電子郵件（必填）<input type="mail" class="FBinfo" placeholder="請填入您的電子郵件信箱"></div>
-
-            <div class="FBque">主旨（必填）<input type="text" class="FBinfo" placeholder="請填入本次問題"></div>
+        <form>
+            <div class="FBcircle">
+                <p class="FBtitle">問題諮詢</p>
+            </div>
+            <div class="FBtext">
+                如有對商店的意見或任何其他問題，<br>
+                歡迎透過此表格與我們聯絡。
+            </div>
+            <div class="FBinfos">
+                <div class="FBname" >姓名（必填）<input type="name" class="FBinfo" placeholder="請填入姓名或您希望的稱呼"></div>
+                <div class="FBmail">電子郵件（必填）<input type="mail" class="FBinfo" placeholder="請填入您的電子郵件信箱"></div>
+                <div class="FBque">主旨（必填）<input type="text" class="FBinfo" placeholder="請填入本次問題"></div>
             
-            <div class="FBtextbox">詳情（必填）<textarea type="text" class="FBinfo" placeholder="請詳細說明此次問題的詳情"></textarea>
-        </div>
-        <div class="FBbtns">
-            <a href="FAQ.html" type="submit" class="FBback"><span>返回</span></a>
-            <a href="success.html" type="submit" class="FBsubmit"><span>送出</span></a>
-        </div>
-    </div></div>
+                <div class="FBtextbox">
+                    詳情（必填）
+                    <textarea type="text" class="FBinfo" placeholder="請詳細說明此次問題的詳情"></textarea>
+                </div>
+                <div class="FBbtns">
+                <a href="FAQ.html" type="submit" class="FBback"><span>返回</span></a>
+                <a href="success.html" type="submit" class="FBsubmit"><span>送出</span></a>
+                </div>
+            </div>
+        </form>
+    </div>
 <footer>
     <div class="foot-warp">
         <div class="foot-left">

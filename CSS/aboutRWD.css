@@ -1,0 +1,142 @@
+@media only screen and (max-width: 767px){
+    .aboutBody {
+        width: 100vw;
+        line-height: 1.5;
+    }
+    .top>.bg-design{
+        position: absolute;
+        width: 100vw;
+    }
+    .title-bg{
+        aspect-ratio: 1/1;
+        margin-top: 5vw;
+        width: 20vw;
+        height: 20vw;
+        background-color: #CBBBB3;
+        border-radius: 20vw;
+        position: absolute;
+        left: 3%
+    }
+    .top>.bg-design>.title{
+        writing-mode:horizontal-tb;
+        font-size: 1.5em;
+        margin-top: 14%;
+        margin-left: 13%;
+        letter-spacing: 0.5em;
+        position: absolute;
+    }
+    .top>.content{
+        width: 70vw;
+        height: auto;
+    }
+    .bottom>.d-flex {
+        width: 100vw;
+        display: flex;
+    }
+    .bottom>.d-flex>.left-sapce{
+        display: none;
+    }
+    .top{
+        width: 100vw;
+        height: 100%;
+    }
+    .circleLT,.circleRT{
+        display: none;
+    }
+    .bottom{
+        /* 1710 */
+        width: 89.0625%;
+        margin: auto 0;
+    }
+    .space{
+        height: 30vw;
+    }
+    .Line{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 91%;
+        opacity: 0.3;
+        border: 1px solid black;
+        border-top: none;
+        z-index: -1;
+    }
+    .R-pic,.L-pic {
+        width: 70%;
+        height: 40vw;
+        position: absolute;
+    }
+    .R-pic{
+        right: -20%;
+    }
+    .R-pic img, .L-pic img{
+        border-radius: 5vw;
+    }
+    .L-text,.R-text{
+        height: auto;
+        box-sizing: none;
+        padding: 0px 2%;
+    }
+    .L-text{
+        width: 35vw;
+    }
+    .R-text{
+        width: 35vw;
+        margin-left: 50%;
+        margin-top: 20vw;
+    }
+    .Ltext ,.Rtext{
+        font-size: 1em;
+        line-height: 1.25;
+    }
+    .Ltitle ,.Rtitle{
+        font-size: 1.5em;
+        letter-spacing: 3%;
+        margin-bottom: 1em;
+    }
+    .L-pic{
+        left: -20%;
+        bottom: 10px;
+    }
+    .more-tile>.bgc{
+        width: 60%;
+        background-color: #CBBBB3;
+        position: absolute;
+        z-index: -1;
+    }
+    .more-text{
+        font-size: 2em;
+        margin: 0 20%;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+    .bottom>.d-flex>.left-sapce{
+        width: 27%;
+        min-width: 210px;
+    }
+    .bottom>.d-flex>.right-content{
+        width: 80%;
+        margin: 10% 5% 0 20%;
+    }
+    .more{
+        width: 100%;
+        margin: 0;
+        font-size: 1em;
+        line-height: 2;
+        letter-spacing: 4;
+    }
+    .imp{
+        width: 100%;
+        margin: 50px 0 0px;
+        font-size: 1.5em;
+        /* background-color: #fff; */
+    }
+    .more-tile{
+        width: 22%;
+        height: 0px;
+        min-width: 200px;
+        margin-left: 1%;
+        position: relative;
+    }
+}

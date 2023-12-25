@@ -111,6 +111,9 @@
     .glowR{
         display: none;
     }
+    .glow{
+        display: none;
+    }
     .product-list{
         width: 100%;
     }
